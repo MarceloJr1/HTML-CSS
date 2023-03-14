@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover exemple</title>
+    <style>
+        body{
+            background-color: cadetblue;
+        }
+
+        div>p{
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 100px;
+            height: 50px;
+        }
+
+        div:hover{
+            color:turquoise
+
+        }
+    </style>
+</head>
+<body>
+    <h1>hover exemple</h1>
+    <p>mouse over the text bellow</p>
+    <div>
+        mouse over here
+        <p>SECRET TEXT</p>
+    </div>
+    
+</body>
+</html>

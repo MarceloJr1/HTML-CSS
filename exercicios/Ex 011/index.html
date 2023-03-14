@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mideas in HTML5</title>
+</head>
+<body>
+    <h1>Dynamic images</h1>
+    <p>try to opening this site on serveral different devices or simply downsize and upsize your brose.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1020px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="flexible image">
+    </picture>
+    <h1>Playing Audios</h1>
+    <p>Let's learn to play Audios in HTML5</p>
+    <audio preload="metadata" controls>
+        <source src="midia/ice-&-fire.mp3" type="audio/mpeg"> 
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"> <!--midea types: MPEG, OGG, WAVE. No caso de audios-->
+        <p>unfortunetaly your browser is unable to play <audio src="midia/ice-&-fire.mp3" class="a">clique aqui para baixar o arquivo MP3</audio></p>
+    </audio>
+    
+</body>
+</html>

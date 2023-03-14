@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        a {
+            color: rgb(0, 112, 79);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color:rgb(56, 114, 96);
+        }
+
+        a:hover{
+            color: red;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color:coral;
+        }
+
+        a::after{
+            content:'(link)';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkred;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Custom Links</h1>
+    <ul>
+        <li><a href="https://github.com/MarceloJr1" target="_blank" rel="external">Repo GitHub</a></li>
+        <li><a href="https://www.youtube.com/channel/UCX3upv97Cjk_1cJOy9ILl1g" target="_blank" rel="external">YouTube channel</a></li>
+        <li><a href="https://www.youtube.com/watch?v=nSNR4ymIxnI" target="_blank" rel="external">My Favourite Song</a> :3</li>
+    </ul>
+</body>
+
+</html>
