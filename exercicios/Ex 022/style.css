@@ -13,7 +13,6 @@ body{
     background-color: cyan;
     border-radius: 10px;
     border: 2px solid black;
-    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.377); 
     display: inline-block;
     height: 300px;
     width: 300px;
@@ -24,7 +23,7 @@ body{
 }
 
 #s2{
-    background-image: linear-gradient(to left, black, white);
+    background-image: linear-gradient(to bottom, black, white);
 }
 
 #s3{
