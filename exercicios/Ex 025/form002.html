@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        #user{
+            padding-right: 20px;
+            padding-bottom: 5px;
+        }
+
+        #password{
+            padding-right: 57px;
+        }
+        
+        #buttom{
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Form test</h1>
+    <form action="register.php" method="post" autocomplete="on">
+        <div id="user">
+            <label for="iuser">user:</label>
+            <input type="text" name="user" id="iuser" required minlength="6" autocomplete="username">
+        </div>
+        <div id="password">
+            <label for="ipas">password:</label>
+            <input type="password" name="pas" id="ipas" required minlength="8" autocomplete="new-password">
+        </div>
+        <div id="buttom">
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>
