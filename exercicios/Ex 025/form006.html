@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>example form</h1>
+    <form action="register.php" method="get" autocomplete="on">
+        <div>
+            <label for="icolor">Color:</label>
+            <input type="color" name="color" id="icolor">
+        </div>
+        <div>
+            <label for="ilevel">Satisfaction:</label>
+            <input type="range" name="level" id="ilevel">
+        </div>
+        <div>
+            <label for="iprofile">Profile photo:</label>
+            <input type="file" name="Profile" id="iprofile">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+</body>
+</html>
