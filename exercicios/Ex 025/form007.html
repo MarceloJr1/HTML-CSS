@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>form example</h1>
+    <form action="register.php" method="get">
+        <div>
+            <label for="istate">State</label>
+            <select name="state" id="istadte"> 
+                <option value="sel" selected>---Select---</option>
+
+                <optgroup label="New England">
+                    <option value="Me">Maine</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="VT">Vermont</option>
+                </optgroup>
+                <optgroup label="Middle Atlantic">
+                    <option value="NY">New York</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="NJ">New Jersey</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <label for="empl">Employment</label>
+            <input type="text" name="empl" id="iempl" list="emp">
+            <datalist id="emp">
+                <option>Developer</option>
+                <option>Teacher</option>
+                <option>Officer</option>
+                <option>Accountant</option>
+                <option>Athlete</option>
+            </datalist>
+        </div>
+        <div>
+            <label for="imsg">Message</label>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="Text here"></textarea>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+</body>
+</html>
